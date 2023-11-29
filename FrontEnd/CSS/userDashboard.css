@@ -1,0 +1,62 @@
+.outerdiv{
+    display:flex;
+    margin-top: 80px;
+   margin-left: 120px;
+}
+.clr{
+    background-color:rgb(29, 27, 29);
+}
+body{
+    background-color: rgb(186, 152, 112);
+}
+.notS{
+    width:30%;
+    /* border: 2px solid rgb(39, 39, 78); */
+    margin:10px;
+    border-radius: 5px;
+}
+.inprogress{
+    width:30%;
+    /* border: 2px solid rgb(63, 166, 43); */
+    margin:10px;
+    border-radius: 5px;
+}
+.completed{
+    width:30%;
+    /* border:2px solid rgb(138, 47, 62); */
+    margin:10px;
+    border-radius: 5px;
+}
+.header3{
+text-align: center;
+font-size: 15px;
+font-weight: bolder;
+background-color: green;
+} 
+ #not_started :hover{
+    background-color: grey;
+}
+
+#xyz  :hover{
+    background-color: grey;
+}
+#xyz1 :hover{
+    background-color: grey;
+} 
+
+#allUserTask{
+    display: none;
+    margin:40px;
+}
+
+
+ 
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+table tr:hover {background-color: #ddd;}
